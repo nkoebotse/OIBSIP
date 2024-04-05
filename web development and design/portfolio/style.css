@@ -1,0 +1,137 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+}
+
+header {
+    background-color: #222;
+    color: #fff;
+    padding: 20px 10%;
+}
+
+.header-content p {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+a {
+    color: #4A90E2;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.banner {
+    background: url('banner.jpeg') no-repeat center center / cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.profile-pic {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    border: 4px solid #fff;
+}
+
+main {
+    padding: 20px 10%;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    color: #222;
+    margin-bottom: 20px;
+}
+
+.job h3, div h3 {
+    color: #222;
+    font-weight: bold;
+}
+
+.job p, div p, ul li {
+    line-height: 1.6;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #f9f9f9;
+    margin: 10px 0;
+    padding: 10px;
+    border-left: 5px solid #4A90E2;
+}
+
+footer {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 20px 10%;
+}
+#contact p {
+    font-size: 16px;
+    color: #fff; 
+	}
+
+#contact a {
+    color: #4A90E2; 
+	text-decoration: none; 
+	}
+
+#contact a:hover {
+    text-decoration: underline; 
+	}
+#experience {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.job {
+    margin-bottom: 15px;
+}
+
+.job h3 {
+    margin: 0;
+    color: #333;
+}
+
+.job-duration {
+    font-style: italic;
+    color: #666;
+}
+
+.job p {
+    margin-top: 5px;
+    text-align: justify;
+}
+
+
+
+@media (max-width: 768px) {
+    .banner {
+        height: 200px;
+    }
+
+    .profile-pic {
+        width: 100px;
+        height: 100px;
+    }
+
+    header, main, footer {
+        padding: 20px;
+    }
+}
